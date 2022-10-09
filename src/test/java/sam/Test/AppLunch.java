@@ -25,7 +25,7 @@ public class AppLunch
 
                    DesiredCapabilities cap = new DesiredCapabilities();
 
-//               cap.setCapability("app","C:\\Users\\2201-00098\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Fisker.lnk");
+  //            cap.setCapability("app","C:\\Users\\2201-00098\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Fisker.lnk");
 
                    cap.setCapability("app", "C:\\Program Files\\Fisker\\Fisker.exe");
 
@@ -50,7 +50,7 @@ public class AppLunch
     }
 
 
-
+//Aftermethod
     @AfterMethod
 
     public void cleanUp() {
