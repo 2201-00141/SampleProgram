@@ -15,7 +15,7 @@ import io.appium.java_client.windows.WindowsElement;
 //AppLunch
 public class AppLunch
 {
-	public static WindowsDriver<WindowsElement> driver = null;
+	//public static WindowsDriver<WindowsElement> driver = null;
 
 	 
 
